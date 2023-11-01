@@ -14,7 +14,7 @@
   {
     "type": "choice",
     "id": "02",
-    "question": "Kuinka monta ihmistä kuoli vuoden 8888 kansannousun aikana?",
+    "question": "Kuinka monta ihmistä kuoli 8888 kapinassa?",
     "answers": [
       "10000",
       "2500",
@@ -28,10 +28,10 @@
     "id": "03",
     "question": "Milloin Myanmar julistautui itsenäiseksi?",
     "answers": [
-      "November 24, 1935",
-      "August 08, 1988",
-      "January 04, 1948",
-      "December 06, 1917"
+      "Marraskuu 24, 1935",
+      "Elokuu 08, 1988",
+      "Tammikuu 04, 1948",
+      "Joulukuu 06, 1917"
     ],
     "hint": "https://en.wikipedia.org/wiki/Independence_Day_(Myanmar)"
   },
