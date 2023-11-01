@@ -1,0 +1,36 @@
+[
+  {
+    "type": "choice",
+    "id": "01",
+    "question": "Which is correct?",
+    "answers": ["wrong", "correct", "wrong", "wrong"],
+    "hint": "https://example.com"
+  },
+  {
+    "type": "choice",
+    "id": "02",
+    "question": "Which is wrong?",
+    "answers": ["correct", "correct", "correct", "wrong"],
+    "hint": "https://example.com"
+  },
+  {
+    "type": "match",
+    "id": "03",
+    "row1Type": "string",
+    "row2Type": "string",
+    "question": "Connect the matching numbers",
+    "row1": ["1111", "2", "3", "4"],
+    "row2": ["3", "1", "4", "2"],
+    "hint": "https://example.com"
+  },
+  {
+    "type": "match",
+    "id": "04",
+    "row1Type": "image",
+    "row2Type": "image",
+    "question": "Connect matching pictures",
+    "row1": ["/assets/images/1.jpg", "/assets/images/2.png", "/assets/images/3.png", "/assets/images/4.jpg"],
+    "row2": ["/assets/images/4.jpg", "/assets/images/3.png", "/assets/images/2.png", "/assets/images/1.jpg"],
+    "hint": "https://example.com"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "type": "choice",
+    "id": "01",
+    "question": "Mitä tapahtui 19. heinäkuuta 1947 Myanmarissa?",
+    "answers": [
+      "Kenraali Aung San syntyi",
+      "Myanmar itsenäistyi",
+      "Useita Burman itsenäisyys johtajia ammuttiin alas",
+      "Britit ottivat Myanmarin hallintaansa"
+    ],
+    "hint": "https://en.wikipedia.org/wiki/Martyrs%27_Day_(Myanmar)#History"
+  },
+  {
+    "type": "choice",
+    "id": "02",
+    "question": "Kuinka monta ihmistä kuoli vuoden 8888 kansannousun aikana?",
+    "answers": [
+      "10000",
+      "2500",
+      "650",
+      "95"
+    ],
+    "hint": "https://en.wikipedia.org/wiki/8888_Uprising#8%E2%80%9312_August"
+  },
+  {
+    "type": "choice",
+    "id": "03",
+    "question": "Milloin Myanmar julistautui itsenäiseksi?",
+    "answers": [
+      "November 24, 1935",
+      "August 08, 1988",
+      "January 04, 1948",
+      "December 06, 1917"
+    ],
+    "hint": "https://en.wikipedia.org/wiki/Independence_Day_(Myanmar)"
+  },
+  {
+    "type": "choice",
+    "id": "04",
+    "question": "Onko Myanmar aina ollut demokraattinen maa?",
+    "answers": [
+      "Oikein",
+      "Väärin"
+    ]
+  },
+  {
+    "type": "choice",
+    "id": "05",
+    "question": "Oliko kenraali Aung San Burman presidentti?",
+    "answers": [
+      "Oikein",
+      "Väärin"
+    ]
+  },
+  {
+    "type": "choice",
+    "id": "06",
+    "question": "Myanmar on vaihtanut lippuaan kolme kertaa itsenäistymisen jälkeen?",
+    "answers": [
+      "Oikein",
+      "Väärin"
+    ]
+  }
+]

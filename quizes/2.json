@@ -1,0 +1,68 @@
+[
+  {
+    "type": "choice",
+    "id": "01",
+    "question": "Mikä puolue sai eniten ääniä vuoden 2020 vaaleissa?",
+    "answers": [
+      "Union Solidarity and Development Party",
+      "National League for Democracy",
+      "People's Pioneer Party",
+      "Tatmadaw"
+    ],
+    "hint": "https://en.wikipedia.org/wiki/2020_Myanmar_general_election#:~:text=The%20National%20League,representing%20the%20military)"
+  },
+  {
+    "type": "choice",
+    "id": "02",
+    "question": "Mikä eläin edustaa Myanmaria?",
+    "answers": [
+      "Leijona",
+      "Joutsen",
+      "Toucan",
+      "Riikinkukko",
+      "Burman python"
+    ],
+    "hint": "https://www.britannica.com/topic/flag-of-Myanmar#:~:text=In%20many%20Asian%20countries%20the%20earliest%20flag%20representing%20the%20ruler%20had%20a%20plain%20background%20with%20a%20distinctive%20national%20animal%20in%20the%20centre.%20In%20Myanmar%20the%20peacock%20was%20that%20central%20emblem%2C%20introduced%20in%201757%20by%20King%20Alaungpaya."
+  },
+  {
+    "type": "choice",
+    "id": "03",
+    "question": "Mitä vihreä väri edustaa Burman lipussa?",
+    "answers": [
+      "Yhtenäisyys, viisaus ja onnellisuus",
+      "Oikeus ja rauha",
+      "Rohkeus ja ratkaiseva",
+      "Puhtaus ja eheys"
+    ],
+    "hint": "https://en.wikipedia.org/wiki/Flag_of_Myanmar#:~:text=The%20yellow%20represents%20unity%2C%20conformity,red%20represents%20bravery%20and%20decisiveness."
+  },
+  {
+    "type": "choice",
+    "id": "04",
+    "question": "Onko Myanmarin armeija maailman 40 parhaan joukossa?",
+    "answers": [
+      "Oikein",
+      "Väärin"
+    ],
+    "hint": "https://www.globalfirepower.com/country-military-strength-detail.php?country_id=myanmar#:~:text=GFP%20annual%20ranking.-,Myanmar%20is%20ranked%2038%20of%20145%20out%20of%20the%20countries,the%20annual%20Global%20Firepower%20review."
+  },
+  {
+    "type": "choice",
+    "id": "05",
+    "question": "Onko Myanmar yksi Asean-maista?",
+    "answers": [
+      "Oikein",
+      "Väärin"
+    ],
+    "hint": "https://ustr.gov/issue-areas/trade-organizations/association-southeast-asian-nations-asean#:~:text=These%20countries%20%2D%2D%20Brunei%20Darussalam,population%20of%20647%20million%20people."
+  },
+  {
+    "type": "choice",
+    "id": "06",
+    "question": "Vihaavatko burmalaiset armeijaa?",
+    "answers": [
+      "Oikein",
+      "Täysin totta"
+    ]
+  }
+]

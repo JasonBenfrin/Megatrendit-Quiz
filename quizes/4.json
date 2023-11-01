@@ -1,0 +1,33 @@
+[
+  {
+    "type": "match",
+    "id": "03",
+    "row1Type": "image",
+    "row2Type": "string",
+    "question": "Yhdistä: Kuva - Kuvaus",
+    "row1": [
+      "/assets/images/4/0.png",
+      "/assets/images/4/1.png",
+      "/assets/images/4/2.png",
+      "/assets/images/4/3.png",
+      "/assets/images/4/4.png",
+      "/assets/images/4/5.png",
+      "/assets/images/4/6.png",
+      "/assets/images/4/7.png",
+      "/assets/images/4/8.png",
+      "/assets/images/4/9.png"
+    ],
+    "row2": [
+      "Burma gained Independence",
+      "8888 Uprising",
+      "Tragedy in Rangoon",
+      "Saffron revolution",
+      "2021 military coup ",
+      "July 19 1947",
+      "Aung San Su Kyi won nobel prize (1991)",
+      "2015 Election",
+      "1962 Burmese Military coup",
+      "End of the burmese royal family"
+    ]
+  }
+]

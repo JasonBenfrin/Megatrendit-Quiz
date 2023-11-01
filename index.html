@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+
+  <base target="_blank">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Josefin+Sans:wght@700&family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <script src="/scripts/index.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="title">
+    <img src="/assets/images/bagan.jpg" alt="Bagan">
+    <h1><span>Myanmarin <span>Demokratia</span></span></h1>
+  </div>
+  <div class="short">
+    <h4>Lyhyt kuvaus Myanmarin historiasta</h4>
+    <p>
+      4. tammikuuta 1948 Burma itsenäistyi Britanniasta, ja siitä tuli parlamentaariseen järjestelmään perustuva demokratia. Myanmar oli kehittynyt maa vuoteen 1962 asti, kunnes U Nay Win päätti ottaa maan hallintaansa. Vuonna 1974 U Than, joka oli entinen YK:n pääsihteeri, kuoli. Myanmarin kansalaiset pyysivät U Nay Winiä päästämään hautajaiset viettämään Myanmarissa, mitä hän ei hyväksynyt. Siksi burman kansalaiset protestoivat kaikkialla maassa, mikä johti monien ihmisten kuolemaan.
+      <br>
+      <br>
+      Vuonna 1988 8888 kapina, joka tunnetaan myös nimellä People Power Uprising, oli sarja valtakunnallisia mielenosoituksia, marsseja ja mellakoita. Lue lisää <a href="https://en.wikipedia.org/wiki/8888_Uprising#8%E2%80%9312_August" target="_blank">täältä.</a>
+      <br>
+      <br>
+      <a href="https://en.wikipedia.org/wiki/Politics_of_Myanmar" target="_blank">Myanmarin politiikka</a>
+    </p>
+  </div>
+  <template id="quiz-choice">
+    <div class="choice">
+      <input type="radio" name="" id="">
+      <label for=""></label>
+    </div>
+  </template>
+  <template id="quiz-match">
+    <div class="row-1"></div>
+    <svg></svg>
+    <div class="row-2"></div>
+  </template>
+  <template id="quiz-temp">
+    <fieldset name="" data-type="">
+      <legend></legend>
+      <div class="quiz-data"></div>
+      <details>
+        <summary><img src="/assets/images/hint.svg" alt=""></summary>
+        <p class="hint"></p>
+      </details>
+    </fieldset>
+  </template>
+  <div class="quiz-container">
+    <p class="page"><span class="curr"></span> / <span class="total"></span></p>
+    <form class="quiz-form" id="quiz-form">
+      <p class="error"></p>
+    </form>
+    <button class="submit" type="submit" form="quiz-form">Submit</button>
+    <p class="page"><span class="curr"></span> / <span class="total"></span></p>
+  </div>
+  <div class="win-container hide">
+    <img src="/assets/images/wave-up.svg" alt="">
+    <div class="info">
+      <h1>You won!</h1>
+      <p>You completed the quiz in <span class="time">00:00:00</span></p>
+      <div class="trophy-container">
+        <img class="trophy" src="/assets/images/trophy.svg" alt="">
+        <img class="shine" src="/assets/images/shining.svg" alt="">
+      </div>
+    </div>
+    <div class="button-wrapper"><button type="button" class="reset">Reset</button></div>
+    <img src="/assets/images/wave-down.svg" alt="">
+  </div>
+  <footer>
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/JasonBenfrin/Megatrendit-Quiz" target="_blank">Megatrendit-Quiz</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/JasonBenfrin" target="_blank">Jason Benfrin</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+  </footer>
+</body>
+</html>
