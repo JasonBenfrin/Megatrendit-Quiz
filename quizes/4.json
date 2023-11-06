@@ -4,7 +4,7 @@
     "id": "03",
     "row1Type": "image",
     "row2Type": "string",
-    "question": "Yhdistä: Kuva - Kuvaus",
+    "question": "Yhdistä oikea kuva ja kuvatekstin.",
     "row1": [
       "/assets/images/4/0.png",
       "/assets/images/4/1.png",

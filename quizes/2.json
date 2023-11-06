@@ -14,13 +14,13 @@
   {
     "type": "choice",
     "id": "02",
-    "question": "Mikä eläin edustaa Myanmaria?",
+    "question": "Mikä on Myanmarin tunnuseläin?",
     "answers": [
       "Leijona",
       "Joutsen",
       "Tukaani",
       "Riikinkukko",
-      "Burmanpyton"
+      "Burman-pyton"
     ],
     "hint": "https://www.britannica.com/topic/flag-of-Myanmar#:~:text=In%20many%20Asian%20countries%20the%20earliest%20flag%20representing%20the%20ruler%20had%20a%20plain%20background%20with%20a%20distinctive%20national%20animal%20in%20the%20centre.%20In%20Myanmar%20the%20peacock%20was%20that%20central%20emblem%2C%20introduced%20in%201757%20by%20King%20Alaungpaya."
   },
@@ -39,20 +39,20 @@
   {
     "type": "choice",
     "id": "04",
-    "question": "Onko Myanmarin armeija maailman 40 parhaan joukossa?",
+    "question": "Onko Myanmarin armeija maailman 40 tulivoimaisimman armeijan joukossa?",
     "answers": [
-      "Oikein",
-      "Väärin"
+      "On",
+      "Ei"
     ],
     "hint": "https://www.globalfirepower.com/country-military-strength-detail.php?country_id=myanmar#:~:text=GFP%20annual%20ranking.-,Myanmar%20is%20ranked%2038%20of%20145%20out%20of%20the%20countries,the%20annual%20Global%20Firepower%20review."
   },
   {
     "type": "choice",
     "id": "05",
-    "question": "Onko Myanmar yksi Asean-maista?",
+    "question": "Onko Myanmar yksi ASEAN-maista?",
     "answers": [
-      "Oikein",
-      "Väärin"
+      "On",
+      "Ei"
     ],
     "hint": "https://ustr.gov/issue-areas/trade-organizations/association-southeast-asian-nations-asean#:~:text=These%20countries%20%2D%2D%20Brunei%20Darussalam,population%20of%20647%20million%20people."
   },
@@ -61,8 +61,8 @@
     "id": "06",
     "question": "Vihaavatko burmalaiset armeijaa?",
     "answers": [
-      "Oikein",
-      "Täysin totta"
+      "Kyllä",
+      "Ei"
     ]
   }
 ]

@@ -11,9 +11,13 @@
   --neutral-surface-color: white;
   --neutral-surface-on-color: black;
   
-  --display-small: 2.25em;
+  --display-small: 2.5em;
+  --display-smaller: .8em;
   --headline-small: 1.5em;
   --body-large: 1em;
+
+  --display-right: -40%;
+  --display-bottom: -70%;
 }
 
 body {
@@ -49,11 +53,23 @@ body {
 }
 
 .title h1 > span {
+  position: relative;
   margin: auto;
   color: var(--neutral-surface-color);
   font-family: 'Josefin Sans', sans-serif;
   font-size: var(--display-small);
   letter-spacing: -.03em;
+}
+
+.title .fun {
+  position: absolute;
+  bottom: var(--display-bottom);
+  right: var(--display-right);
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 600;
+  font-size: var(--display-smaller);
+  rotate: -10deg;
+  letter-spacing: .03em;
 }
 
 fieldset {
@@ -423,8 +439,12 @@ details a {
 @media only screen and (max-width:630px) {
   :root {
     --display-small: 1.6em;
+    --display-smaller: .6em;
     --headline-small: 1.3em;
     --body-large: 1em;
+
+    --display-right: -20%;
+    --display-bottom: -50%;
   }
 
   summary {

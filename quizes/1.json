@@ -40,23 +40,23 @@
     "id": "04",
     "question": "Onko Myanmar aina ollut demokraattinen maa?",
     "answers": [
-      "Oikein",
-      "Väärin"
+      "On",
+      "Ei"
     ]
   },
   {
     "type": "choice",
     "id": "05",
-    "question": "Oliko kenraali Aung San Burman presidentti?",
+    "question": "Oliko kenraali Aung San, joka auttoi Burman itsenäiseksi, myös Burman presidentti?",
     "answers": [
-      "Oikein",
-      "Väärin"
+      "Oli",
+      "Ei"
     ]
   },
   {
     "type": "choice",
     "id": "06",
-    "question": "Myanmar on vaihtanut lippuaan kolme kertaa itsenäistymisen jälkeen?",
+    "question": "Myanmar on vaihtanut lippuaan kolme kertaa itsenäistymisen jälkeen.",
     "answers": [
       "Oikein",
       "Väärin"
