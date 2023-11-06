@@ -87,7 +87,12 @@ fieldset {
   border: 2px solid var(--neutral-surface-container-color);
 }
 
-.choice:has(input:checked), input:checked ~ label {
+.choice:has(input:checked) {
+  background-color: var(--primary-color);
+  border-color: var(--primary-on-container-color);
+}
+
+input:checked ~ label {
   background-color: var(--primary-color);
   border-color: var(--primary-on-container-color);
 }
